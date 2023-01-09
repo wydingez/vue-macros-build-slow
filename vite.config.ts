@@ -7,7 +7,7 @@ import VueMacros from "unplugin-vue-macros/vite";
 export default defineConfig({
   plugins: [
     vue(),
-    // VueMacros({}), 
+    VueMacros({}), 
     timeReporter()
   ],
 })
